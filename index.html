@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700,900" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper clearfix main-container">
+        <div class="title">
+            <h1>CRYSTAL</h1>
+        </div>
+
+        <div class="rules">
+
+            <p>
+                You will be given a random number at the start of the game.
+                There are four crystals below. Clicking on a crystal will give you a specific amount of points.
+                You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.
+                The value of each crystal is hidden from you until you click on it.
+                Each time when the game starts, the game will change the values of each crystal
+            </p>
+
+        </div>
+
+        <div class="scoreBoard">
+
+                <h4 id="scoreTitle">Score</h4>
+                <div class="win-loss-container">
+                    <span class="winLoss">Wins: </span>    
+                    <span class="winLoss">Losses: </span>
+                </div>
+                <div class="score-number-container">
+                    <span id="wins" class="winLoss">0</span>
+                    <span id="loss" class="winLoss">0</span>
+                </div>
+
+            </div>
+
+
+        <div class="container clearfix asdf">
+            <div class="computerNumber">
+
+                <h2 class="info">Computers Crystals</h2>
+                <br>
+                <span id="computerCrystal" class="score">test</span>
+
+            </div>
+
+            <div class="userNumber">
+
+                    <h2 class="info">Your Crystals</h2>
+                    <br>
+                    <span id="userCrystal" class="score">test</span>
+        
+                </div>
+
+
+        </div>
+
+        <div class='divContainer clearfix'>
+
+        </div>
+
+        <div class="currentScore">
+
+        </div>
+
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
